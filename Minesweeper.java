@@ -14,13 +14,20 @@ public class Minesweeper {
     JLabel textLabel = new JLabel(); // Label teks di atas papan.
     JPanel textPanel = new JPanel(); // Panel untuk teks.
     // JPanel boardPanel = new JPanel(); // Panel untuk papan.
+<<<<<<< HEAD
     JButton tombolRestart = new JButton("Restart Game");
+=======
+>>>>>>> 71b613001a0c9c3342cc7cfc26e7a26d181045cc
     
     PapanGame papanGame;
 
     //Konstruktor Minesweeper
     Minesweeper() {
+<<<<<<< HEAD
         frame.setSize(lebarPapan, tinggiPapan + 50); //mengatur ukuran dan tinggi papan + 50 untuk restart button
+=======
+        frame.setSize(lebarPapan, tinggiPapan); //mengatur ukuran dan tinggi papan
+>>>>>>> 71b613001a0c9c3342cc7cfc26e7a26d181045cc
         frame.setLocationRelativeTo(null); //buat bingkai dibuka ada ditengah layar
         frame.setResizable(false); //bingkai frame tidak bisa diubah ukuran
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //menutup bingkai ketika di close
@@ -42,6 +49,7 @@ public class Minesweeper {
         papanGame = new PapanGame(jumlahBaris, jumlahKolom, jumlahBom, ukuranUbin, textLabel);
         frame.add(papanGame.boardPanel, BorderLayout.CENTER);
 
+<<<<<<< HEAD
         tombolRestart.addActionListener(e -> restartGame());
 
         frame.setVisible(true); //buat bingkai bisa dilihat di window
@@ -55,6 +63,10 @@ public class Minesweeper {
         frame.repaint();
         textLabel.setText("Minesweeper " + Integer.toString(jumlahBom));
     }
+=======
+        frame.setVisible(true); //buat bingkai bisa dilihat di window
+    }
+>>>>>>> 71b613001a0c9c3342cc7cfc26e7a26d181045cc
     
     public static void main(String[] args) {
         new Minesweeper(); //menjalankan program minesweeper

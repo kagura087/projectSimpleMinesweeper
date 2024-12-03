@@ -46,6 +46,7 @@ public class PapanGame {
                 papan[baris][kolom] = ubin; //menambahkan ubin ke array papan
                 mineList.add(ubin); //menambahkan ubin ke array list mineList
 
+<<<<<<< HEAD
                 ubin.addMouseListener(new MouseAdapter() {
                     @Override
                     public void mousePressed(MouseEvent e) {
@@ -180,3 +181,9 @@ public class PapanGame {
         return 0;
     }
 }
+=======
+            }
+        }
+    }
+}
+>>>>>>> 71b613001a0c9c3342cc7cfc26e7a26d181045cc
