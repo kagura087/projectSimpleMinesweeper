@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="BckLpQQdF1JhIZHGopBQ">
+    <mxGraphModel dx="978" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-1" value="Minesweeper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="160" height="250" as="geometry">
+            <mxRectangle x="80" y="50" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-2" value="- tileSize: int&lt;div&gt;- numRows: int&lt;/div&gt;&lt;div&gt;- numCols: int&lt;/div&gt;&lt;div&gt;- boardWidth: int&lt;/div&gt;&lt;div&gt;- boardHeight: int&lt;/div&gt;&lt;div&gt;- frame: JFrame&lt;/div&gt;&lt;div&gt;- textLabel: JLabel&lt;/div&gt;&lt;div&gt;- boardPanel: JPanel&lt;/div&gt;&lt;div&gt;- textPanel: JPanel&lt;/div&gt;&lt;div&gt;- mineCount: int&lt;/div&gt;&lt;div&gt;- gameBoard: GameBoard&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-1">
+          <mxGeometry y="26" width="160" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-1">
+          <mxGeometry y="200" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-4" value="+ Minesweeper()&lt;div&gt;&amp;nbsp;+ main(args: String[]&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-1">
+          <mxGeometry y="208" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-5" value="MineTile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-6" value="- r: int&lt;div&gt;- c: int&lt;/div&gt;" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-5">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-5">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-8" value="+ MineTile(r: int, c: int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-5">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-9" value="GameBoard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="290" y="50" width="160" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-10" value="- numRows: int &lt;div&gt;- numCols: int&lt;/div&gt;&lt;div&gt;- mineCount: int&lt;/div&gt;&lt;div&gt;- tileSize: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- board: MineTile[][]&lt;/div&gt;&lt;div&gt;- mineList: ArrayList&lt;/div&gt;&lt;div&gt;- boardPanel: JPanel&lt;/div&gt;&lt;div&gt;- textLabel: JLabel&lt;/div&gt;&lt;div&gt;- random: Random&lt;/div&gt;&lt;div&gt;- tilesClicked: int&lt;/div&gt;&lt;div&gt;- gameOver: boolean&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-9">
+          <mxGeometry y="26" width="160" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-9">
+          <mxGeometry y="200" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bhpB59MmV3Muz8Fe-D85-12" value="+ GameBoard()&lt;div&gt;- initBoard()&lt;/div&gt;&lt;div&gt;+ setMines()&lt;/div&gt;&lt;div&gt;+ revealMines()&lt;/div&gt;&lt;div&gt;+ checkMine()&lt;/div&gt;&lt;div&gt;+ countMine()&lt;/div&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bhpB59MmV3Muz8Fe-D85-9">
+          <mxGeometry y="208" width="160" height="102" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
